@@ -18,7 +18,9 @@ export class JokesComponent implements OnInit {
   error$: Observable<any>;
   isLoading$: Observable<boolean>;
 
-  constructor(private store: Store<RootStoreState.State>) {}
+  constructor(private store: Store<RootStoreState.State>) {
+    this.store.dispatch(JokeStoreActions.load());
+  }
 
   ngOnInit() {
     this.jokes$ = this.store.pipe(

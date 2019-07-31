@@ -7,13 +7,16 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { AppComponent } from './app.component';
-import { routes } from './app.routes';
-import { JokeCardItemComponent } from './components/joke-card-item/joke-card-item.component';
-import { JokeCardListComponent } from './components/joke-card-list/joke-card-list.component';
-import { JokeDetailComponent } from './containers/joke-detail/joke-detail.component';
-import { JokesComponent } from './containers/jokes/jokes.component';
-import { RootStoreModule } from './root-store';
+import { AppComponent } from '@app/app.component';
+import { routes } from '@app/app.routes';
+import { JokeCardItemComponent } from '@app/components/joke-card-item/joke-card-item.component';
+import { JokeCardListComponent } from '@app/components/joke-card-list/joke-card-list.component';
+import { JokeDetailComponent } from '@app/containers/joke-detail/joke-detail.component';
+import { JokesComponent } from '@app/containers/jokes/jokes.component';
+import { RootStoreModule } from '@app/root-store';
+import { ProductListComponent } from '@app/containers/product/list/product-list.component';
+import { LayoutComponent } from '@app/containers/layout/layout.component';
+import { MenuComponent } from '@app/components/menu/menu.component';
 
 @NgModule({
   imports: [
@@ -32,7 +35,10 @@ import { RootStoreModule } from './root-store';
     JokesComponent,
     JokeDetailComponent,
     JokeCardListComponent,
-    JokeCardItemComponent
+    JokeCardItemComponent,
+    ProductListComponent,
+    LayoutComponent,
+    MenuComponent
   ],
   bootstrap: [AppComponent]
 })

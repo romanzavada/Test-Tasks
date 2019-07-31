@@ -1,0 +1,84 @@
+{
+    "data" : [
+        {
+            "id" : 0,
+            "name" : "Product 1",
+            "details" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+            "currencyIso": "GBP",
+            "formattedValue" : "£6.00",
+            "priceType" : "BUY",
+            "value": 12,
+            "img" : "https://picsum.photos/200/300"
+        },
+        {
+            "id" : 1,
+            "name" : "Product 2",
+            "details" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+            "currencyIso": "GBP",
+            "formattedValue" : "£50.00",
+            "priceType" : "BUY",
+            "value": 12,
+            "img" : "https://picsum.photos/200/300"
+        },
+        {
+            "id" : 2,
+            "name" : "Product A",
+            "details" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+            "currencyIso": "GBP",
+            "formattedValue" : "£12.00",
+            "priceType" : "BUY",
+            "value": 12,
+            "img" : "https://picsum.photos/200/300"
+        },
+        {
+            "id" : 3,
+            "name" : "Product B",
+            "details" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+            "currencyIso": "GBP",
+            "formattedValue" : "£2.00",
+            "priceType" : "BUY",
+            "value": 2,
+            "img" : "https://picsum.photos/200/300"
+        },
+        {
+            "id" : 4,
+            "name" : "Product C",
+            "details" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+            "currencyIso": "GBP",
+            "formattedValue" : "£34.00",
+            "priceType" : "BUY",
+            "value": 34,
+            "img" : "https://picsum.photos/200/300"
+        },
+        {
+            "id" : 5,
+            "name" : "Product D",
+            "details" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+            "currencyIso": "GBP",
+            "formattedValue" : "£8.00",
+            "priceType" : "BUY",
+            "value": 8,
+            "img" : "https://picsum.photos/200/300"
+        },
+        {
+            "id" : 6,
+            "name" : "Product E",
+            "details" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+            "currencyIso": "GBP",
+            "formattedValue" : "£16.00",
+            "priceType" : "BUY",
+            "value": 16,
+            "img" : "https://picsum.photos/200/300"
+        },
+        {
+            "id" : 7,
+            "name" : "Product F",
+            "details" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", 
+            "currencyIso": "GBP",
+            "formattedValue" : "£40.00",
+            "priceType" : "BUY",
+            "value": 40,
+            "img" : "https://picsum.photos/200/300"
+        }
+    ]
+}
